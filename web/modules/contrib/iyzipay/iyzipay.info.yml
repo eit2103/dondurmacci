@@ -1,0 +1,13 @@
+name: 'Commerce Iyzipay Payment Gateway'
+type: module
+description: 'Iyzico iyzipay credit card payment module for drupal commerce'
+core_version_requirement: ^8 || ^9 || ^10
+package: 'commerce'
+dependencies:
+  - commerce:commerce_payment
+  - encryption:encryption
+
+# Information added by Drupal.org packaging script on 2023-03-22
+version: '2.0.7'
+project: 'iyzipay'
+datestamp: 1679498904

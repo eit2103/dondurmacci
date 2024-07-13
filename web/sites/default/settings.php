@@ -42,7 +42,7 @@
  * - sites/drupal.org
  * - sites/org
  *
- * - sites/default
+ * - sites/defaultt
  *
  * Note that if you are installing on a non-standard port number, prefix the
  * hostname with that number. For example,
@@ -894,3 +894,13 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_Jem1b9Q36Y-cuMNvUNG9Ul3nSd2fa4DmTSiKXoJvGJABF2MWAQSfxY1hXpoJOmOPwtl5qgzPOQ/sync';
+
+/**
+ * This encryption will be used to encrypt and decrypt values by the encryption
+ * module.
+ *
+ * The value should shared between sites that share encrypted configuration. If
+ * the `encryption_key` were to change encrypted data/configuration would be in
+ * a corrupt state until the correct encryption key were recovered.
+ */
+$settings['encryption_key'] = '6Sf/K5k5l956R0quIWojNF7kC/XLVVvLEbUAW/Lrb34=';

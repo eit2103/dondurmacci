@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^dondurmacci\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dondurmacci\.com$
+RewriteRule ^/?$ "http\:\/\/www\.dondurmacci\.com\/web" [R=301,L]
+
